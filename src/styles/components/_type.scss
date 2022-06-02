@@ -1,10 +1,25 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   font-size: $size-text;
-  line-height: 1.5;
+  line-height: 1.4;
   color: $c-text;
+  background-color: $c-bg;
 }
 
+.title--big{
+  font-size: $size-titlebig;
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
 .title {
-  color: $c-alt;
+  font-family: 'Indie Flower', cursive;
+  font-size: $size-title;
+}
+
+.grid--text{
+  font-size: $size-text;
+}
+
+.text{
+  width: 800px;
 }
