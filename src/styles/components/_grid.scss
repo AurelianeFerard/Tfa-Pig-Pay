@@ -1,0 +1,7 @@
+.footer--list{
+    display: grid;
+    -webkit-column-gap: 5px;
+    -moz-column-gap: 5px;
+    column-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}

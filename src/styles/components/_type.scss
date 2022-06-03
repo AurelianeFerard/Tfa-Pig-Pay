@@ -16,10 +16,41 @@ body {
   font-size: $size-title;
 }
 
+.footer--title{
+  font-size: $size-text;
+}
+
+.footer--dwm{
+    vertical-align: baseline;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 .grid--text{
   font-size: $size-text;
 }
 
 .text{
-  width: 800px;
+  width: 300px;
+}
+
+.main{
+  border-bottom:1px solid $c-text;
+  margin: 34px;
+}
+
+
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: $c-text;
+}
+
+li{
+  text-decoration: none;
 }
