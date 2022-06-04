@@ -1,15 +1,17 @@
 .img__logo{
-    width: 50px;
-}
-
-.img--head{
-    width: 100%;
+    width: 75px;
 }
 
 .grid--img{
     width: 100%;
+    margin-bottom: 68px;
 }
 
 .img{
     width: 100%;
 }
+
+.header--logo{
+    display: flex;
+    justify-content: center;
+  }

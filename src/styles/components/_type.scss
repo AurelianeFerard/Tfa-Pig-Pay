@@ -54,3 +54,98 @@ a{
 li{
   text-decoration: none;
 }
+
+.main--slogan{
+  font-size: $size-title;
+  text-align: center;
+}
+
+.btn--lien, input[type=button], input[type=submit] {
+  margin: 10px 5px 0 0;
+  background-color: $c-text;
+  border-radius: 50px;
+  padding: 12px 40px;
+  color: #244121;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.btn{
+  margin-top: 34px;
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+
+//player
+
+.bouton{
+	padding-left: 30px;
+	width: 250px;
+}
+
+.video{
+    width: 300px;
+}
+
+.videoPlayer{
+    margin: auto;
+}
+
+#divPlayer {
+	width: 300px;
+	padding: 10px;
+    margin-top: 50px;
+}
+.divPlayer{
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+button, input[type='button'], input[type='submit'] {
+	border: 1px solid #244121;
+	color: #244121;
+	margin-bottom: 0px;
+	min-width: 4em;
+	padding: 3px 12px 3px 12px;
+	font-size: 14px;
+	cursor: pointer;
+  border-radius: 30px;
+}
+
+button:hover, input[type='button']:hover, input[type='submit']:hover {
+	border-color: $c-bg;
+	color: $c-bg;
+}
+
+.control {
+	width: 78px;
+}
+
+#progressBarControl {
+	width: 210px;
+	height: 15px;
+	border: 1px solid $c-text;
+	border-radius: 30px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+#progressBar {
+	width: 0px;
+	background: $c-text;
+	height: 15px;
+	text-align: right;
+	line-height: 15px;
+	font-size: 9px;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+#progressTime {
+	font-size: 10px;
+	color: #244121;
+}
