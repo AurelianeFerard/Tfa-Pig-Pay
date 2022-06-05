@@ -16,6 +16,10 @@ body {
   font-size: $size-title;
 }
 
+.header{
+  width: 100%;
+}
+
 .footer--title{
   font-size: $size-text;
 }
@@ -27,6 +31,10 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+.main--slogan{
+  margin-bottom: 64px;
 }
 
 .grid--text{
@@ -77,6 +85,8 @@ li{
   margin-bottom: 34px;
   text-align: center;
 }
+
+
 
 
 //player
@@ -148,4 +158,47 @@ button:hover, input[type='button']:hover, input[type='submit']:hover {
 #progressTime {
 	font-size: 10px;
 	color: #244121;
+}
+
+@media (min-width: 768px ){
+  .main--slogan{
+    margin-bottom: 136px;
+  }
+
+  .test--text{
+    text-align: center;
+  }
+}
+@media (max-width: 300px ){
+  .body{
+    font-size: 14px;
+  }
+  .title--big{
+    font-size: 36px;
+  }
+  .main--slogan{
+    font-size: 20px;
+  }
+  .text{
+    width: 200px;
+  }
+  #videoPlayer{
+    width: -webkit-fill-available;
+  }
+  .bouton {
+    padding-left: 0px;
+    width: 200px;
+  }
+  .btn--lien{
+    padding: 12px 10px;
+  }
+  ul{
+    padding-inline-start: 20px;
+  }
+  .footer--liste{
+    column-gap: 0px;
+  }
+  .body{
+    font-size: 14px;
+  }
 }

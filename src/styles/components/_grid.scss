@@ -5,3 +5,28 @@
     column-gap: 5px;
     grid-template-columns: repeat(3, 1fr);
 }
+
+@media (min-width: 768px ){
+    .grid{
+        display: flex;
+        margin-bottom: 136px;
+    }
+    .grid--reverse{
+        flex-direction: row-reverse;
+    }
+    .grid--landing{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .grid--img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .test--text{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .test{
+        text-align: center;
+    }
+}

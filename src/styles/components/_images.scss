@@ -1,9 +1,14 @@
 .img__logo{
     width: 75px;
+    margin-top: 25px;
 }
 
 .grid--img{
     width: 100%;
+    margin-bottom: 68px;
+}
+
+.test--img{
     margin-bottom: 68px;
 }
 
@@ -15,3 +20,30 @@
     display: flex;
     justify-content: center;
   }
+
+  .main--img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 68px;
+  }
+
+  @media (min-width: 768px ){
+    .grid--img{
+        width: 40%;
+    }
+    .img__main{
+        width: 250px;
+    }
+    .img{
+        width: 40%;
+        height: 40%;
+        margin-top: auto;
+    }
+    .main--img{
+        margin-bottom: 136px;
+    }
+    .img--portrait{
+        width: 30%;
+    }
+}
