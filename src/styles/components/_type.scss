@@ -33,8 +33,9 @@ body {
     border: 0;
 }
 
-.main--slogan{
+.main--sloganmini{
   margin-bottom: 64px;
+  text-align: center;
 }
 
 .grid--text{
@@ -146,6 +147,7 @@ button:hover, input[type='button']:hover, input[type='submit']:hover {
 
 #progressBar {
 	width: 0px;
+  border-radius: 30px;
 	background: $c-text;
 	height: 15px;
 	text-align: right;
@@ -161,7 +163,7 @@ button:hover, input[type='button']:hover, input[type='submit']:hover {
 }
 
 @media (min-width: 768px ){
-  .main--slogan{
+  .main--sloganmini{
     margin-bottom: 136px;
   }
 

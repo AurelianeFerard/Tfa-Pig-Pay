@@ -6,6 +6,7 @@
 .grid--img{
     width: 100%;
     margin-bottom: 68px;
+    border-radius: 30px;
 }
 
 .test--img{
@@ -14,6 +15,7 @@
 
 .img{
     width: 100%;
+    border-radius: 30px;
 }
 
 .header--logo{
@@ -60,17 +62,17 @@
     .videoPlayer{
         width: 500px;
     }
-    .grid--landing{
-       padding-left: 150px;
-    }
     .grid--name{
-        margin-right: -150px;
+        margin-right: -350px;
     }
     .gride--eco{
-        margin-left: -150px;
+        margin-left: -350px;
     }
-    .img__main{
-        padding-right: 150px;
+    .img__eco{
+        width: 300px;
+    }
+    .img__name{
+        width: 300px;
     }
   
 }
