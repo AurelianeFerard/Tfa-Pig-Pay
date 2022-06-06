@@ -55,3 +55,14 @@ function update(player) {
     progress.style.width = percent + '%';
     progress.textContent = percent + '%';
 }
+
+
+gsap.to(".img__logo", {duration:1, opacity: 1, scale: 2 });
+
+TweenMax.to("div > div", 3, {
+    xPercent: -300,
+    repeat: 1,
+    yoyo: true,
+    repeatDelay: 0.5,
+    ease: Linear.easeNone
+  });
