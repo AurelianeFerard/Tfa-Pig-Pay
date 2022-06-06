@@ -46,4 +46,31 @@
     .img--portrait{
         width: 30%;
     }
+    #videoPlayer{
+        margin-right: 40px;
+    }
+    .img__name{
+        margin-top: 50px;
+    }
+    .img__eco{
+        margin-top: 50px;
+    }
+}
+@media (min-width: 1080px ){
+    .videoPlayer{
+        width: 500px;
+    }
+    .grid--landing{
+       padding-left: 150px;
+    }
+    .grid--name{
+        margin-right: -150px;
+    }
+    .gride--eco{
+        margin-left: -150px;
+    }
+    .img__main{
+        padding-right: 150px;
+    }
+  
 }

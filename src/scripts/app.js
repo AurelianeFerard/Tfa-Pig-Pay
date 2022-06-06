@@ -1,19 +1,28 @@
 "use strict";
-// playbutton
-let playButton = document.querySelector(".control--play");
-playButton.addEventListener("click", (e) => {
-    // On récupère le parent avec la classe divPlayer
-    let control = e.currentTarget;
-    let divPlayer = control.closest(".divPlayer");
-    let videoElement = divPlayer.querySelector("video");
-    play(videoElement.id, control);
-});
-
-// Progress bar
-let videoElement = document.querySelector("video");
-videoElement.addEventListener("timeupdate", (e) => {
-    update(e.currentTarget);
-});
+var stop = document.querySelector(".control--stop");
+if(stop){
+    stop.addEventListener("click", (e) => {
+        let control = e.currentTarget;
+            let divPlayer = control.closest(".divPlayer");
+            let videoElement = divPlayer.querySelector("video");
+            resume(videoElement.id, control);
+        });
+        // playbutton
+        let playButton = document.querySelector(".control--play");
+        playButton.addEventListener("click", (e) => {
+            // On récupère le parent avec la classe divPlayer
+            let control = e.currentTarget;
+            let divPlayer = control.closest(".divPlayer");
+            let videoElement = divPlayer.querySelector("video");
+            play(videoElement.id, control);
+        });
+        
+        // Progress bar
+        let videoElement = document.querySelector("video");
+        videoElement.addEventListener("timeupdate", (e) => {
+            update(e.currentTarget);
+        });
+}
 
 
 function play(idPlayer, control) {
