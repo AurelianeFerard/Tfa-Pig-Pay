@@ -68,6 +68,9 @@ li{
   font-size: $size-title;
   text-align: center;
 }
+.main--sloganmini{
+  font-size: 24px;
+}
 
 .btn--lien, input[type=button], input[type=submit] {
   margin: 10px 5px 0 0;
@@ -184,6 +187,9 @@ button:hover, input[type='button']:hover, input[type='submit']:hover {
   }
   .main--slogan{
     font-size: 20px;
+  }
+  .main--sloganmini{
+    font-size: 18px;
   }
   .text{
     width: 200px;

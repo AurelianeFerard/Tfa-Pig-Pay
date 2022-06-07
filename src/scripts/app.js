@@ -59,8 +59,8 @@ function update(player) {
 
 gsap.to(".img__logo", {duration:1, opacity: 1, scale: 2 });
 
-TweenMax.to("div > div", 3, {
-    xPercent: -300,
+TweenMax.to("div > div", 1, {
+    xPercent: -350,
     repeat: 1,
     yoyo: true,
     repeatDelay: 0.5,
